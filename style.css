@@ -17,11 +17,15 @@ body {
 
 .btn {
     position: absolute;
-    height: 50px;
-    width: 150px;
+    height: 12%;
+
+    width: 16%;
+
     border-radius: 30px;
-    left: 65%;
-    top: 50%;
+    right: 40%;
+    /* Adjusting based on viewport width */
+    top: 60%;
+    /* Adjusting based on viewport height */
     background-color: cornflowerblue;
     cursor: pointer;
     border: 0;
@@ -29,14 +33,19 @@ body {
 }
 
 #inputSection {
+    margin-bottom: 2vh;
 
-    margin-bottom: 20px;
 }
 
 input {
     border-radius: 5px;
     border: none;
-    height: 30px;
+    height: 3vh;
+
+    width: 50%;
+    /* Adjusting based on viewport width */
+    max-width: 200px;
+    /* Limiting maximum width */
 }
 
 .btn:hover {
@@ -45,6 +54,6 @@ input {
 }
 
 #qrcode {
-    margin-top: 20px;
+    margin-top: 2vh;
 
 }
